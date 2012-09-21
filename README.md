@@ -4,7 +4,7 @@ This was made into a gem so specific patches to spork-minitest I've been using c
 
 ## What's different
 
-minitest-rails uses a +minitest_helper.rb+ file instead of a +test_helper.rb+ file.
+minitest-rails uses a `minitest_helper.rb` file instead of a `test_helper.rb` file.
 It includes fixes from nuxlli to support passing flags and minitest/pride
 
 ## Credit
