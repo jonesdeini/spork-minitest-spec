@@ -1,29 +1,13 @@
 # Spork::Minitest::Spec
 
-TODO: Write a gem description
+This was made into a gem so specific patches to spork-minitest I've been using can be included in a testing framework gem that I use. (you cannot have a git repo as a dependency in a gem)
 
-## Installation
+## What's different
 
-Add this line to your application's Gemfile:
+minitest-rails uses a +minitest_helper.rb+ file instead of a +test_helper.rb+ file.
+It includes fixes from nuxlli to support passing flags and minitest/pride
 
-    gem 'spork-minitest-spec'
+## Credit
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install spork-minitest-spec
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+semaperepelitsa - creating spork-minitest
+nuxlli - patching spork-minitest to support passing flags and minitest/pride
